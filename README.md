@@ -19,7 +19,7 @@ from [test/usage.js](test/usage.js):
 
 <!--#include file="test/usage.js" start="  //#u" stop="  //#r"
   outdent="  " code="javascript" -->
-<!--#verbatim lncnt="33" -->
+<!--#verbatim lncnt="34" -->
 ```javascript
 var qs = require('qrystr'), eq = assert.deepStrictEqual, sym, x, y, u,
   opt, shebang = { prefix: '#!' };
@@ -34,6 +34,7 @@ sym = function symmetricEqual(dict, qstr) {
   eq(qs('#!' + qstr, shebang), dict);
 };
 
+sym({}, '');
 sym({ bar: '42', eq: '=', flag: true, foo: '23' },
   'bar=42&eq=%3D&flag&foo=23');
 sym({ '@': [ 'Æ', ' ', '?', '&' ], foo: [ 'hi', true, 'cu' ] },

@@ -18,6 +18,7 @@ function readmeDemo(assert) {
     eq(qs('#!' + qstr, shebang), dict);
   };
 
+  sym({}, '');
   sym({ bar: '42', eq: '=', flag: true, foo: '23' },
     'bar=42&eq=%3D&flag&foo=23');
   sym({ '@': [ 'Æ', ' ', '?', '&' ], foo: [ 'hi', true, 'cu' ] },
