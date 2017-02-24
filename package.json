@@ -1,0 +1,33 @@
+{ "name": "qrystr",
+  "version": "0.1.0",
+  "description": "Yet another codec for urlencoded data, written from scratch for minimalism, cares about a lot less stuff than node's does. Features include a direction-guessing API and AMD/UMD support.",
+  "keywords": [
+    "application/x-www-form-urlencoded",
+    "querystring"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/qrystr-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/qrystr-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/qrystr-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "qs.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.8",
+    "usnam-pmb": "^0.2.3"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
