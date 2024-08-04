@@ -1,5 +1,5 @@
 { "name": "qrystr",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Yet another codec for urlencoded data, written from scratch for minimalism, cares about a lot less stuff than node's does. Features include a direction-guessing API and AMD/UMD support.",
   "keywords": [
     "application/x-www-form-urlencoded",
