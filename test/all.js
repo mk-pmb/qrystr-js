@@ -6,7 +6,8 @@ try { require('usnam-pmb'); } catch (ignore) {}
 
 var assert = require('equal-pmb');
 
-require('./usage')(assert);
+require('./usage.js')(assert);
+require('./oauth2.js')(assert);
 
 
 
